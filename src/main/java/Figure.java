@@ -7,7 +7,7 @@ public class Figure {
         if (color.equals(WHITE) || color.equals(BLACK)) {
             this.color = color;
         } else {
-            throw new IllegalStateException("Figures of checkers should be BLACK or WHITE!");
+            throw new IllegalStateException("Figures of chess should be BLACK or WHITE!");
         }
     }
 
