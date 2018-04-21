@@ -28,7 +28,7 @@ public class Board {
                     result += (board[n][k]).getColor().equals(Figure.BLACK) ? "b" : "w";
                     result += (board[n][k]) instanceof Pawn ? "P" : "";
                     result += (board[n][k]) instanceof Bishop ? "B" : "";
-                    result += (board[n][k]) instanceof Knight ? "KN" : "";
+                    result += (board[n][k]) instanceof Horse ? "H" : "";
                     result += (board[n][k]) instanceof Rook ? "R" : "";
                     result += (board[n][k]) instanceof Queen ? "Q" : "";
                     result += (board[n][k]) instanceof King ? "K" : "";
